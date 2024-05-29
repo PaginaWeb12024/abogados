@@ -1,0 +1,94 @@
+/* Imagen de fordo */
+/*
+body{
+    background-image: url("unibacion de la imagen");
+    background-size: cover; /*Para qeu no se repita la imagen
+}*/
+/*Menu principal*/
+nav{
+    max-width: auto;
+    margin: auto;
+    background-color: #333; /*Fondo de la barra*/
+    font-size: 20px;
+    margin-top: 50px;
+}
+.menu-hori{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.menu-hori >li >a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-hori > li:hover{ /* Para ponerle sobra cuando pasa el cursor */
+    background-color: red;
+}
+
+.menu-verti{
+    position: absolute;
+    list-style: none;
+    display: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5); /*Fondo del menu desplegable*/
+}
+.menu-hori  li:hover .menu-verti{
+    display: block;
+}
+.menu-verti li:hover{
+    background-color: black; /*Color al pasar el cursor*/
+}
+.menu-verti li a{
+    display: block;
+    color: white; /*Color del texto*/
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+/*Sub menu 2*/
+
+
+.menu-verti2{
+    position: relative;
+    list-style: none;
+    display: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5); /*Fondo del menu desplegable*/
+}
+.menu-verti  li:hover .menu-verti2{
+    display: block;
+}
+.menu-verti2 li:hover{
+    background-color: black; /*Color al pasar el cursor*/
+}
+.menu-verti2 li a{
+    display: block;
+    color: white; /*Color del texto*/
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+
+
+
+.titulos{
+    color: purple;
+}
+
+
+/* TABLA */
+ table{
+    width: 700px;
+    height: 400px;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    text-align: center;
+}
+
+
