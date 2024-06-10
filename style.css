@@ -25,7 +25,7 @@ justify-content: space-around;
 }
 
 .menu-hori > li:hover{ /* Para ponerle sobra cuando pasa el cursor */
-    background-color: red;
+    background-color: #E5A65E;
 }
 
 .menu-verti{
@@ -75,7 +75,7 @@ justify-content: space-around;
 
 
 .titulos{
-    color: purple;
+    color: #E5A65E;
 }
 
 
@@ -91,4 +91,7 @@ th{
     text-align: center;
 }
 
-
+.logo{
+    width: 40px;
+    height: 40px;
+}
