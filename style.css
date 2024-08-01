@@ -5,11 +5,16 @@ body{
     background-size: cover; /*Para qeu no se repita la imagen
 }*/
 /*Menu principal*/
+/*
+body{
+    background-color: rgb(1, 43,65);
+}
+    */
 nav{
     max-width: auto;
     margin: auto;
-    background-color: #333; /*Fondo de la barra*/
-    font-size: 20px;
+    background-color: rgb(1, 43, 65); /*Fondo de la barra*/
+    font-size: 30px; /*TAMAÑO DEL TEXTO EN LA BARRA*/
     margin-top: 50px;
 }
 .menu-hori{
@@ -20,12 +25,12 @@ justify-content: space-around;
 .menu-hori >li >a {
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: rgb(188, 143, 78);
     text-decoration: none;
 }
 
 .menu-hori > li:hover{ /* Para ponerle sobra cuando pasa el cursor */
-    background-color: #E5A65E;
+    background-color: rgb(255, 255, 255);
 }
 
 .menu-verti{
@@ -43,7 +48,7 @@ justify-content: space-around;
 }
 .menu-verti li a{
     display: block;
-    color: white; /*Color del texto*/
+    color: rgb(255, 255, 255); /*Color del texto*/
     padding: 15px 15px 15px 20px;
     text-decoration: none;
 }
@@ -66,32 +71,50 @@ justify-content: space-around;
 }
 .menu-verti2 li a{
     display: block;
-    color: white; /*Color del texto*/
+    color: rgb(255, 255, 255); /*Color del texto*/
     padding: 15px 15px 15px 20px;
     text-decoration: none;
 }
 
 
-
+.cuerpo{
+    background-color: rgb(1, 43, 65);
+}
 
 .titulos{
-    color: #E5A65E;
+    color: rgb(188, 143, 78);
+    font-size: 50px; /*Tamaño de los titulos*/
 }
+
+p{
+    color: rgb(188,143,78);
+    text-align: justify;
+    font-size: 30px; /*Tamaño del texto en el contenido*/
+}
+h2{
+    color: rgb(188,143,78 );
+}
+
 
 
 /* TABLA */
  table{
-    width: 700px;
-    height: 400px;
+    width: 900px;
+    height: 700px;
+    color: rgb(188, 143, 78);
 }
 th, td{
     padding: 10px;
+    font-size: 30px;
 }
 th{
     text-align: center;
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 400px;
+    height: 400px;   
+}
+.lista{
+    color: rgb(188, 143, 78);
 }
